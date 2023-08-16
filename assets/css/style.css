@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*Global css*/
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.header{
+	background-color: #6B0B91;
+}
+.container{
+	padding: 15px;
+}
+.nav_elements{
+	color:white;
+	text-decoration: none;
+	padding: 15px;
+	margin-top: 15px;
+}
+.hero{
+	background-color: #490A7E;
+                       
+}
+.hero h1{
+	color: white;
+    text-align: center;
+    padding: 13px;
+    margin-top: 32px;
+}
+.Search_space{
+	width: 150px;
+    margin-left: 99px;
+    padding: 29px;
+ }
+ .holder{
+ 	margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 12px;
+    border-radius: 18px;
+    /* margin-right: 61px
+px
+; */
+    width: 475px;
+ }
+
+ .btn{
+ 	color: white;
+ 	cursor: pointer;
+    border: 1px solid;
+    background: red;
+    margin-top: 33px;
+    width: 105px;
+    margin-left: -100px;
+}
+ .par{
+ 	color: white;
+ 	text-align: center;
+ 	font-size: 16px;
+ 	margin-bottom: 45px;
+ }
+
+
+.choose h1{
+   text-align: center;
+    margin-left: 33px;
+    padding: 22px;
+    font-size: 50px;
+
+
+}
+.choose p{
+    text-align: center;
+}
+.first{
+    background-image: url(../image/hero-background.jpg);
+    color: White;
+    padding: 1px;
+}
+.first h1,p{
+    text-align: center;
+    padding: 10px;
+}
+.first h2{
+    padding: 20px;
+}
+
+.second{
+    background-image: url(../image/head.jpg);
+    color: White;
+    padding: 1px;
+}
+.second h1,p{
+    text-align: center;
+    padding: 10px;
+}
+.second h2{
+    padding: 20px;
+}
+
+.third{
+    background-image: url(../image/headerr.png);
+    color: White;
+    padding: 1px;
+}
+.third h1,p{
+    text-align: center;
+    padding: 10px;
+}
+.third h2{
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.elements_block{
+    background-color: white;
+}
+.elements{
+    color: black;
+    border: 2px solid;
+}
+
+.point{
+    padding: 10px;
+
+}
+.new_btn{
+    color: white;
+    background-color: red;
+    margin-left: 40px;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 14px;
+
+}
+
+    /*   featur start */
+.feature{
+    background-color:#E6FAF1;
+    margin-top: 50px;
+}
+.up{
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+.up h1 {
+    text-align: center;
+}
+.up p{
+    
+    margin-left: 78px;
+    text-align: left;
+}
+.feature_btn{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    width: 110px;
+    margin-left: 85px;
+}
+.down{
+    margin-left: 230px;  
+}
+
+.left_up img {
+    padding-top: 100px;
+    padding-bottom:100px;
+    margin-left: 70px;
+}
+.left_down h1 .{
+    text-align: center;
+}
+.left_down p{
+    text-align: left;
+}
+.feature_btn2{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    width: 110px;
+    margin-left: 5px;
+}
+     
+     /*   featur end */
+
+     /*   cpanel start  */
+
+.Cpanel{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+p{
+    text-align: left;
+}
+.cpanel_element{
+    padding: 10px;
+}
+.boxs{
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+}
+.boxs ul{
+    padding: 0;
+    display: inline;
+}
+.boxs ul li{
+    list-style: none;
+    display: inline;    
+}
+.fa-solid{
+    margin-left: 350px;
+}
+
+     /*   cpanel  end */
+
+     /*   Hoston love start */
+.Hoston_love{
+    background-color: #EBF8FF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Hoston_love h1{
+   text-align: center;
+   margin-bottom: 15px;
+}
+.Hoston_love .first-p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.col-lg-4 {
+    padding: 20px;
+}
+
+.Hoston_love h3{
+   display: inline;
+   margin-left: 15px;
+}
+.Hoston_love p{
+    display: left;
+    margin-left: 35px;
+}
+
+     /*   Hoston love end */
+
+     /* Support section start  */
+.Support_guidance {
+    background: url(../image/hero-background.jpg);
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Support_guidance h4{
+    margin-bottom: 30px;
+}
+.Support_guidance .pic{
+    margin-left: 75px;
+    height: 350px;
+}
+     /* Support section end */
+
+.comparison{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.comparison h1,p{
+    text-align: center;
+
+}
+
+.Ask{
+    background-color: #F0FAE6;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Ask h1 ,p{
+    text-align: center;
+
+}
+
+.Ask .ask_box{
+    border: 1px solid;
+    background-color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+.ask_box{
+    padding: 20px;
+    margin: 30px;
+}
+.ask_box ul{
+    display: inline;
+}
+.ask_box ul li{
+    display: inline;
+    color: black;
+}
+
+.footer {
+    background:url(../image/headerr.png);
+}
+.new{
+    color: white;
+    margin-left: 32px;
+    padding-bottom: 15px;
+}
+.new1{
+    color: white;
+}
+.new2{
+    color: white;
+    font-size: 14px;
+}
+.new4{
+    color: white;
+}
+.footer h1,p{
+    /*color: white;*/
+    text-align: left;
+}
+.footer ul{
+/*    display: inline;*/
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.footer ul li{
+    /*display: inline;*/
+    list-style-type: none;
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+}
+.social{
+    display: inline;
+    border: 2px solid;
+    border-radius: 100%;
+    padding: 10px;
+    background-color: blue;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
