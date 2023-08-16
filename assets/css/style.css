@@ -75,7 +75,7 @@ px
 .first{
     background-image: url(../image/hero-background.jpg);
     color: White;
-    padding: 1px;
+    border: 1px solid #000;
 }
 .first h1,p{
     text-align: center;
@@ -88,7 +88,7 @@ px
 .second{
     background-image: url(../image/head.jpg);
     color: White;
-    padding: 1px;
+    border: 1px solid #000;
 }
 .second h1,p{
     text-align: center;
@@ -101,7 +101,7 @@ px
 .third{
     background-image: url(../image/headerr.png);
     color: White;
-    padding: 1px;
+    border: 1px solid #000;
 }
 .third h1,p{
     text-align: center;
@@ -117,7 +117,10 @@ px
 }
 .elements{
     color: black;
-    border: 2px solid;
+}
+
+.elements li:nth-child(odd) {
+    background-color: #ccc;
 }
 
 .point{
@@ -132,6 +135,7 @@ px
     width: 200px;
     height: 50px;
     margin-bottom: 14px;
+    border: none;
 
 }
 
@@ -139,6 +143,8 @@ px
 .feature{
     background-color:#E6FAF1;
     margin-top: 50px;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 .up{
     padding-top:100px;
@@ -163,10 +169,15 @@ px
     margin-left: 230px;  
 }
 
+.pics{
+    margin-top: 24px;
+}
+
 .left_up img {
     padding-top: 100px;
     padding-bottom:100px;
     margin-left: 70px;
+    margin-top: -18px;
 }
 .left_down h1 .{
     text-align: center;
@@ -209,9 +220,10 @@ p{
 .boxs ul li{
     list-style: none;
     display: inline;    
+    float: right;
 }
 .fa-solid{
-    margin-left: 350px;
+    /* margin-left: 350px; */
 }
 
      /*   cpanel  end */
@@ -249,9 +261,9 @@ p{
 .Support_guidance {
     background: url(../image/hero-background.jpg);
     color: white;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+} 
 
 .Support_guidance h4{
     margin-bottom: 30px;
@@ -302,6 +314,8 @@ p{
 
 .footer {
     background:url(../image/headerr.png);
+    background-position: top;
+    background-attachment: fixed;
 }
 .new{
     color: white;
@@ -347,4 +361,20 @@ p{
 .footer ul li a{
     text-decoration: none;
     color: white;
+}
+
+.search-input {
+    width: 40%;
+}
+
+.footer-social .fa-facebook {
+    color: red;
+}
+
+.footer-social .fa-instagram {
+    color: yellow;
+}
+
+.footer-social .fa-twitter {
+    color: orange;
 }
